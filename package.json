@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "start": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
-    "cypress-run": "cypress run",
+    "cypress-run": "cypress run"
   },
   "dependencies": {
     "core-js": "^3.8.3",
