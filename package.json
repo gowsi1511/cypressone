@@ -8,7 +8,7 @@
     "start-server": "npm run serve",
     "lint": "vue-cli-service lint",
     "cypress-run": "cypress run",
-    "init-test" : "start-server-and-test start-server http://localhost:8081 cypress-run"
+    "init-test" : "start-server-and-test serve http://localhost:8081 cypress-run"
   },
   "dependencies": {
     "core-js": "^3.8.3",
