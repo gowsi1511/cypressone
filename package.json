@@ -5,10 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start-server": "npm run serve",
+    "start": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
     "cypress-run": "cypress run",
-    "init-test" : "start-server-and-test serve http://localhost:8081 cypress-run"
   },
   "dependencies": {
     "core-js": "^3.8.3",
