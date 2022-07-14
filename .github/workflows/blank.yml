@@ -15,7 +15,6 @@ jobs:
          with:
           build: npm run build
           start: npm start
-       - name: Copy test execution videos
-         run: |
-           mkdir public
-           cp -r cypress/videos public/videos   
+         env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
