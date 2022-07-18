@@ -8,4 +8,10 @@ describe('empty spec', () => {
   it('passes', () => {
     cy.contains('recipes');
   })
+  it('passes', () => {
+    cy.contains('recipes');
+  })
+  it('passes', () => {
+    cy.contains('recipes');
+  })
 })
