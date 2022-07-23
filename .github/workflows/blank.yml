@@ -12,10 +12,6 @@ jobs:
      steps:
        - name: Checkout
          uses: actions/checkout@v2.4.2
-       - name: Setup node
-         uses: actions/setup-node@v3
-         with:
-          node-version: ${{ matrix.node }} 
        - run : sudo apt update   
        - run : sudo apt install nodejs npm -y
       #  - name: Cypress run
