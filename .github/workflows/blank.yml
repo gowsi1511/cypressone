@@ -16,7 +16,7 @@ jobs:
          uses: actions/setup-node@v3
          with:
           node-version: ${{ matrix.node }} 
-       - run : sudo api update   
+       - run : sudo apt update   
        - run : sudo apt install nodejs
       #  - name: Cypress run
       #    uses: cypress-io/github-action@v4.1.1 
