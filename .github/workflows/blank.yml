@@ -13,20 +13,16 @@ jobs:
      strategy:
        fail-fast: false
        matrix:
-       containers: [1, 2, 3]
+       containers: [1,2]
      steps:
        - name: Checkout
          uses: actions/checkout@v2.4.2
-      #  - run : sudo apt update   
-      #  - run : sudo apt install nodejs npm -y
-      #  - run : sudo apt-get install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb -y
        - name: Cypress run
          uses: cypress-io/github-action@v4.1.1 
          with:
           build: npm run build
           start: npm start
           parallel: true
-          group: 'Actions example'
           record: true
          env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
