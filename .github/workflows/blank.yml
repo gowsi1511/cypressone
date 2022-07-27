@@ -10,9 +10,9 @@ jobs:
    cypress-run:
      runs-on: ubuntu-18.04
      strategy:
-      fail-fast: false
-      matrix:
-      containers: [1, 2]
+       fail-fast: false
+       matrix:
+       containers: [1, 2, 3]
      steps:
        - name: Checkout
          uses: actions/checkout@v2.4.2
