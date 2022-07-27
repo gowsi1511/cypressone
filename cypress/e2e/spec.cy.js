@@ -1,11 +1,5 @@
-describe('empty spec', () => {
-  
-  it('passes', () => {
-    cy.visit('http://localhost:8080');
-
-    cy.contains('vue');
-  })
-  it('passes', () => {
-    cy.contains('recipes');
+describe('My First Test', () => {
+  it('Visits the Kitchen Sink', () => {
+    cy.visit('https://example.cypress.io')
   })
 })
