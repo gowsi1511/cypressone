@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   install:
-    runs-on: [self-hosted, X64, Linux]
+    runs-on: ubuntu-latest
     container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - name: Checkout
@@ -25,7 +25,7 @@ jobs:
           path: dist
 
   ui-chrome-tests:
-    runs-on: [self-hosted, X64, Linux]
+    runs-on: ubuntu-latest
     container: cypress/browsers:node12.18.3-chrome87-ff82
     needs: install
     strategy:
