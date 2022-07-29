@@ -27,6 +27,13 @@ jobs:
          env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.SECRETE_GITHUB_TOKEN }} 
+       - name: Save build folder
+         uses: actions/upload-artifact@v2
+         with:
+          name: build
+          if-no-files-found: error
+          path: build   
+    
 
 
           
