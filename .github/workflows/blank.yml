@@ -8,7 +8,7 @@ on:
       - main
 jobs: 
    cypress-intall:
-     runs-on: [self-hosted,macOS]
+     runs-on: [self-hosted,macOS,X64]
      container: cypress/browsers:node12.18.3-chrome87-ff82
      steps:
        - name: Checkout
