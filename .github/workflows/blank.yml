@@ -23,7 +23,7 @@ jobs:
          with:
           name: build
           if-no-files-found: error
-          path: build   
+          path: dist   
         #  env:
         #   CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         #   GITHUB_TOKEN: ${{ secrets.SECRETE_GITHUB_TOKEN }} 
