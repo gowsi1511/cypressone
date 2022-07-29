@@ -7,7 +7,28 @@ on:
     branches:
       - main
 jobs: 
+   cypress-intall:
+     runs-on: ubuntu-18.04
+     container: cypress/browsers:node12.18.3-chrome87-ff82
+     steps:
+       - name: Checkout
+         uses: actions/checkout@v2.4.2
+       - name: Cypress run
+         uses: cypress-io/github-action@v4.1.1 
+         with:
+          runTests: false
+          build: npm run build
+          start: npm start
+          parallel: true
+          record: true
+         env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.SECRETE_GITHUB_TOKEN }} 
+
+    
+jobs: 
    cypress-run:
+     needs: cypress-intall
      runs-on: ubuntu-18.04
      container: cypress/browsers:node12.18.3-chrome87-ff82
      strategy:
@@ -20,6 +41,7 @@ jobs:
        - name: Cypress run
          uses: cypress-io/github-action@v4.1.1 
          with:
+          install: false
           build: npm run build
           start: npm start
           parallel: true
@@ -27,13 +49,8 @@ jobs:
          env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.SECRETE_GITHUB_TOKEN }} 
-       - name: Save build folder
-         uses: actions/upload-artifact@v2
-         with:
-          name: build
-          if-no-files-found: error
-          path: build   
-    
+
+              
 
 
           
