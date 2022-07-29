@@ -48,7 +48,6 @@ jobs:
          uses: cypress-io/github-action@v4.1.1 
          with:
           start: npm run start
-          install: false
           parallel: true
           record: true
          env:
