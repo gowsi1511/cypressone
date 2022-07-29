@@ -8,7 +8,7 @@ on:
       - main
 jobs: 
    cypress-intall:
-     runs-on: ubuntu-18.04
+     runs-on: [self-hosted,macOS]
      container: cypress/browsers:node12.18.3-chrome87-ff82
      steps:
        - name: Checkout
@@ -29,7 +29,7 @@ jobs:
         #   GITHUB_TOKEN: ${{ secrets.SECRETE_GITHUB_TOKEN }} 
 
    cypress-run:
-     needs: cypress-intall
+     needs: [self-hosted,macOS]
      runs-on: ubuntu-18.04
      container: cypress/browsers:node12.18.3-chrome87-ff82
      strategy:
