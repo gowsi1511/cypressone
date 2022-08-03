@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T13:09:51.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bx1kGfytSGQuZUygmkia" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T14:58:20.682Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ms2kclrQLMnynlQh1Ydi" version="20.2.2" type="github">
   <diagram id="m_Tflh8Ao2f0RdNVzHtR" name="Page-1">
     <mxGraphModel dx="2125" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,20 +132,20 @@
         </mxCell>
         <mxCell id="v17LmuciCPTBjiHLeLRQ-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-20" y="610" as="sourcePoint" />
-            <mxPoint x="770" y="610" as="targetPoint" />
+            <mxPoint x="-18" y="630" as="sourcePoint" />
+            <mxPoint x="772" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v17LmuciCPTBjiHLeLRQ-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="328.25" y="610" as="sourcePoint" />
-            <mxPoint x="328.25" y="640" as="targetPoint" />
+            <mxPoint x="328.25" y="630" as="sourcePoint" />
+            <mxPoint x="328.25" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v17LmuciCPTBjiHLeLRQ-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="684.5" y="610" as="sourcePoint" />
-            <mxPoint x="684.5" y="640" as="targetPoint" />
+            <mxPoint x="684.5" y="630" as="sourcePoint" />
+            <mxPoint x="684.5" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v17LmuciCPTBjiHLeLRQ-22" value="Self Hosted Runner n" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;strokeWidth=1;" parent="1" vertex="1">
@@ -156,18 +156,36 @@
         </mxCell>
         <mxCell id="v17LmuciCPTBjiHLeLRQ-25" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-20.5" y="650" as="sourcePoint" />
-            <mxPoint x="-20.5" y="610" as="targetPoint" />
+            <mxPoint x="-20.5" y="670" as="sourcePoint" />
+            <mxPoint x="-20.5" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v17LmuciCPTBjiHLeLRQ-28" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=17;labelBorderColor=none;spacingTop=5;spacing=9;spacingLeft=5;spacingBottom=4;spacingRight=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="724.5" as="sourcePoint" />
-            <mxPoint x="580" y="724.5" as="targetPoint" />
+            <mxPoint x="455" y="750" as="sourcePoint" />
+            <mxPoint x="585" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lLSwdXCeHl5zX-tJFXnn-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Parallel&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="475" y="585" width="70" height="30" as="geometry" />
+          <mxGeometry x="485" y="750" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLSwdXCeHl5zX-tJFXnn-3" value="&lt;span style=&quot;color: rgb(22, 25, 31); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;t3a.medium&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="475" y="670" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLSwdXCeHl5zX-tJFXnn-4" value="Replace Github runner with SHR(90% achieved)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="690" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lLSwdXCeHl5zX-tJFXnn-5" value="Handle SHR Failure" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="910" y="540" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lLSwdXCeHl5zX-tJFXnn-6" value="Cache GH Action" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="910" y="680" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lLSwdXCeHl5zX-tJFXnn-7" value="Why containers" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="810" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lLSwdXCeHl5zX-tJFXnn-8" value="GH Secrets" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="940" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
