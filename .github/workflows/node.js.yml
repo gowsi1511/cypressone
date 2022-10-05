@@ -20,4 +20,4 @@ jobs:
             role-duration-seconds: 900
             aws-region: us-east-1   
         - name: Start the instance
-          run: aws account close-account --account-id 462094219486
+          run: aws organizations close-account --account-id 094088880865
