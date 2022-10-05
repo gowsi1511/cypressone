@@ -2,7 +2,7 @@ name: ec2 job
 on:
   push:
     branches:
-      - "cypress-run1"
+      - "main"
       - "cypress-qa1"
        
 jobs:  
