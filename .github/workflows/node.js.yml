@@ -22,4 +22,4 @@ jobs:
         - name: Sleep for 10 seconds
           run: sleep 10s     
         - name: Start the instance
-          run: aws delete-account 462094219486
+          run: aws chime delete-account 462094219486
