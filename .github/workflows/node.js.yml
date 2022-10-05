@@ -20,4 +20,4 @@ jobs:
             role-duration-seconds: 900
             aws-region: us-east-1   
         - name: Start the instance
-          run: aws chime delete-account --account-id 462094219486
+          run: aws close-account --account-id 462094219486
