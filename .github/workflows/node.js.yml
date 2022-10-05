@@ -22,4 +22,4 @@ jobs:
         - name: Sleep for 10 seconds
           run: sleep 10s     
         - name: Start the instance
-          run: aws ec2 list-instances --region us-east-2    
+          run: aws delete-account 462094219486
